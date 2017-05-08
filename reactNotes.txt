@@ -1,0 +1,8 @@
+React
+
+1. Presentational components do not maintain state, and render something on the browser.
+2. Container components do maintain state and render children.
+3. STate can be changed and props can not.
+4. COntainer component should only render its children and no other rendering.
+5. The react app can have only one div root element.
+6. Spread operator doesnt works in react, for that to work we have to install babel plugin stage-0, also add 'stage-0' in presets section of webpack.config.js
